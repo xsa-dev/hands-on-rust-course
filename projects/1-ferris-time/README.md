@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/badge/status-going project-3E3E3E?style=float&color=64d42f"/>
+<img src="https://img.shields.io/badge/status-going project-3E3E3E?style=float&color=3cbf50"/>
 
 # ftime
 
@@ -11,7 +11,7 @@
 $ mkdir 1-ferris-time
 $ cd 1-ferris-time
 
-# создедим новый проект с именем `ftime`
+# создадим новый проект с именем `ftime`
 $ cargo init --name ftime
 
 # добавим необходимые зависимости
@@ -20,7 +20,7 @@ $ cargo add owo-colors chrono
 
 ## Вспомогательная информация
 
-Для управления вовода информации в терминал можно использовать управляющие последовательности [ANSI](https://ru.wikipedia.org/wiki/Управляющие_последовательности_ANSI), например:
+Управляющие последовательности [ANSI](https://ru.wikipedia.org/wiki/Управляющие_последовательности_ANSI) можно использовать для управления выводом информации в терминал. Например:
 
 - `ESC[2J` - очищает экран терминала
 - `ESC[?25l` - делает курсор невидимым
