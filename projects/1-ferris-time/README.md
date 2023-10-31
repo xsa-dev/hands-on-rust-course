@@ -32,3 +32,5 @@ $ cargo add owo-colors chrono
 // остановка на 5 секунд
 std::thread::sleep(std::time::Duration::from_secs(5));
 ```
+
+Текущее время можно получить с помощью крейта `chrono` - его мы рассмотрели на [степе 1.7](https://stepik.org/lesson/1103425/step/7?unit=1114466).
